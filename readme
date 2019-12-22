@@ -1,6 +1,15 @@
 Были протестированы найденные библиотеки Python для конвертации markdown файлов
 в html.
 
+Все запуски были выполнены на FreeBSD ОС с процессором Intel i3. Дополнительная
+информация:
+
+% dmesg | grep -i cpu | head -n2
+CPU: Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz (3059.07-MHz K8-class CPU)
+FreeBSD/SMP: Multiprocessor System Detected: 4 CPUs
+% freebsd-version
+12.0-RELEASE-p10
+
 Библиотеки:
 1) Markdown (3.1.1)
 2) markdown2 (2.3.8)
